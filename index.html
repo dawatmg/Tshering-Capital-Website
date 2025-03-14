@@ -1,1 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tshering Capital | Lethal Financial Warfare</title>
+  <style>
+    /* Reset and basic styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: #121212;
+      color: #f0f0f0;
+    }
+    a {
+      color: #e91e63;
+      text-decoration: none;
+    }
+    header, nav, section, footer {
+      padding: 20px;
+    }
+    
+    /* Navigation styles */
+    nav {
+      background: #1f1f1f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3.5em;
+      z-index: 1;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      z-index: 1;
+    }
+    
+    /* Section styling */
+    section {
+      margin-bottom: 40px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #e91e63;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    
+    /* Cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95em;
+    }
+    
+    /* Contact Form Styling */
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    form button {
+      background: #e91e63;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Footer */
+    footer {
+      background: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    
+    /* Responsive navigation */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <h2>Tshering Capital</h2>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#signals">Trading Signals</a></li>
+        <li><a href="#academy">The Lethal Academy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Unleash Lethal Financial Precision</h1>
+      <p>From a humble village in Nepal to the global financial battleground—experience the relentless force of Tshering Capital.</p>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2 class="section-title">Our Story</h2>
+    <p>
+      Born from a vision to disrupt conventional finance, Tshering Capital combines the cutting-edge power of AI with the audacity of unconventional strategies. Inspired by the relentless drive of Dan Peña, the stability of James Bond, and the visionary growth of Neville Goddard, we are here to revolutionize investment, trading, and financial education. Our journey is one of grit, resilience, and the pursuit of billion-dollar success.
+    </p>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services" class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Investment Strategies</h3>
+        <p>
+          Harness AI-powered analytics to deploy high-impact, precision investment strategies designed to capture market inefficiencies and generate multi-million dollar returns.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Financial Services</h3>
+        <p>
+          Comprehensive financial advisory, risk management, and portfolio optimization services tailored for high-net-worth individuals and institutional clients.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Trading Signals</h3>
+        <p>
+          Daily crypto, forex, and stock signals delivered by a dedicated team of trained experts. Our signals operate like a precision strike, ensuring optimal market entry and exit points.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Intelligent Investment Research</h3>
+        <p>
+          Advanced AI-driven research tools that provide deep market insights and uncover hidden opportunities for proactive investment decisions.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Financial Education</h3>
+        <p>
+          The Lethal Academy offers unconventional courses on investing, real estate, economic fundamentals, financial growth, and personal development to empower tomorrow's financial warriors.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Trading Signals Section -->
+  <section id="signals" class="container">
+    <h2 class="section-title">Daily Trading Signals</h2>
+    <p>
+      Our elite team of expert analysts delivers high-probability trading signals in crypto, forex, and stocks. With real-time analysis and rapid execution, our signals are your secret weapon in the financial arena.
+    </p>
+    <p><a href="#contact">Subscribe Now</a> for exclusive access.</p>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="academy" class="container">
+    <h2 class="section-title">The Lethal Academy</h2>
+    <p>
+      Step into a transformative learning experience where traditional financial wisdom meets unconventional growth strategies. Our courses are designed to challenge the status quo and arm you with the tools to master the art of wealth creation.
+    </p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Unconventional Investing</h3>
+        <p>Learn strategies that defy conventional norms, inspired by relentless industry titans.</p>
+      </div>
+      <div class="card">
+        <h3>Real Estate Mastery</h3>
+        <p>Dive deep into property investments with insights that drive sustainable wealth.</p>
+      </div>
+      <div class="card">
+        <h3>Financial Growth & Personal Development</h3>
+        <p>Unlock the secrets to exponential financial growth while cultivating a resilient mindset.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    <p>
+      Ready to join the ranks of financial warriors and transform your wealth strategy? Contact us today.
+    </p>
+    <p>Email: <a href="mailto:info@tsheringcapital.com">info@tsheringcapital.com</a></p>
+    <p>Phone: +1 (555) 123-4567</p>
+    <p>Address: 123 Financial District, New York, NY</p>
+    <form action="#" method="post" style="margin-top: 20px;">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5"></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tshering Capital. All rights reserved. Crafted for financial warriors who dare to defy the ordinary.</p>
+  </footer>
+</body>
+</html>
 
